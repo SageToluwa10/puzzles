@@ -58,9 +58,9 @@
 #define COUNT(x) ( (((x) & 0x08) >> 3) + (((x) & 0x04) >> 2) + \
 		   (((x) & 0x02) >> 1) + ((x) & 0x01) )
 
-#define PREFERRED_TILE_SIZE 32
+#define PREFERRED_TILE_SIZE 64
 #define TILE_SIZE (ds->tilesize)
-#define TILE_BORDER 1
+#define TILE_BORDER 5
 #ifdef NARROW_BORDERS
 #define WINDOW_OFFSET TILE_BORDER
 #else
