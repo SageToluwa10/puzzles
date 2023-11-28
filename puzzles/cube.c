@@ -12,7 +12,7 @@
 #include "puzzles.h"
 
 #define MAXVERTICES 20
-#define MAXFACES 20
+#define MAXFACES 100
 #define MAXORDER 4
 struct solid {
     int nvertices;
